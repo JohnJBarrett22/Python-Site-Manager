@@ -36,6 +36,7 @@ try:
     if r.status_code != 200:
         notify_user()
         reboot_server()
+        
 except Exception as e:
     notify_user()
     reboot_server()
